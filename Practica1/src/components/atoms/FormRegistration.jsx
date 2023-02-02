@@ -8,7 +8,7 @@ function FormResgistration(){
         e.preventDefault();
         const formData=new FormData(formR.current)
         let URL="http://34.225.239.102/api/registrar/usuario"
-        console.log(formData.get('tipo'))
+        console.log(formData.get('password'))
         let options={
             method:'POST',
             headers:{ "Content-Type":'application/json'},
@@ -17,7 +17,7 @@ function FormResgistration(){
             nombre:formData.get('nombre'),
             usuario: formData.get('users'),
             correo: formData.get('email'),
-            contraseña: formData.get('password'),
+            contrasenia: formData.get('password'),
                   
             })
             
