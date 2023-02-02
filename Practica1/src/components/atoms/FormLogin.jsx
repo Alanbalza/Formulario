@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import {Link} from "react-router-dom" 
 import LogoLogin from "../../assets/img/login1.png"
-import "../../assets/style/Regist.css"
+import "../../assets/style/Registro.css"
 
 function FormLogin(){
     
