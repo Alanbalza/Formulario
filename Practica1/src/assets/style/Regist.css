@@ -1,0 +1,19 @@
+
+.ChildRegist{
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px); 
+    box-shadow: 0 0 10rem 0 rgba(0, 0, 0, 0.726); 
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.ChildRegist input{
+    width: 100%;
+    height: 20px;
+}
