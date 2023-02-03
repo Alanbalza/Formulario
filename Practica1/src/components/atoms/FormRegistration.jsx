@@ -15,9 +15,9 @@ function FormResgistration(){
             body:JSON.stringify({
                 
             nombre:formData.get('nombre'),
-            usuario: formData.get('users'),
+            usuario: formData.get('usuario'),
             correo: formData.get('email'),
-            contrasenia: formData.get('password'),
+            contrasenia: formData.get('contrasenia'),
                   
             })
             
@@ -36,9 +36,9 @@ function FormResgistration(){
             <div className="LittleBoxy"><label htmlFor="E.Mail">E.Mail</label></div>
             <div className="LittleBoxy"><input type="text" name="email"/></div>
             <div className="LittleBoxy"><label htmlFor="Usernme">Username</label></div>
-            <div className="LittleBoxy"><input type="text" name="users"/></div>
+            <div className="LittleBoxy"><input type="text" name="usuario"/></div>
             <div className="LittleBoxy"><label htmlFor="password">Password</label></div>
-            <div className="LittleBoxy"><input type="text" name="password"/></div>
+            <div className="LittleBoxy"><input type="text" name="contrasenia"/></div>
             <div className="LittleBoxy">
             <button onClick={handlerClick}>Registro</button>
             </div>
