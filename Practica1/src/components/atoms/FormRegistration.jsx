@@ -38,7 +38,7 @@ function FormResgistration(){
             <div className="LittleBoxy"><label htmlFor="Usernme">Username</label></div>
             <div className="LittleBoxy"><input type="text" name="usuario"/></div>
             <div className="LittleBoxy"><label htmlFor="password">Password</label></div>
-            <div className="LittleBoxy"><input type="text" name="contrasenia"/></div>
+            <div className="LittleBoxy"><input type="password" name="contrasenia"/></div>
             <div className="LittleBoxy">
             <button onClick={handlerClick}>Registro</button>
             </div>
